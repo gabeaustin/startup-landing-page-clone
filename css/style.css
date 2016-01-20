@@ -66,3 +66,28 @@ a:active, a:visited {
 a:hover {
   color: #333;
 }
+
+.background-img {
+  z-index: 1;
+  position: relative;
+  background-size: cover;
+}
+
+.tag-line, .slogan, .main-btn {
+  z-index: 2;
+  position: relative;
+  top: -550px;
+  color: #fff;
+  text-align: center;
+  /*margin: 0 auto;*/
+}
+
+.main-btn {
+  background-color: #e67e22;
+  color: #fff;
+}
+
+.main-btn:hover {
+  background-color: #d35400;
+  
+}
