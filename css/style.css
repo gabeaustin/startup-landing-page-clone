@@ -8,6 +8,9 @@ html {
 
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  z-index: 3;
+  width: 100%;
 }
 
 .top-navigation > .content {
@@ -49,10 +52,6 @@ html {
 .logo {
   width: 26px;
   height: 70px;
-}
-
-.logo {
-  width: 26px;
 }
 
 a {
