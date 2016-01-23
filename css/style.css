@@ -9,7 +9,7 @@ html {
 .top-navigation {
   background-color: #fff;
   position: fixed;
-  z-index: 3;
+  z-index: 9999;
   width: 100%;
 }
 
@@ -81,7 +81,7 @@ a:hover {
   letter-spacing: 2px;
 }
 
-.content > h1, h3 {
+.content > h1, .content > h3 {
   top: -550px;
   z-index: 2;
   position: relative;
@@ -110,32 +110,28 @@ a:hover {
   border: 1px solid #d35400;
 }
 
-.button > a:visited, a:hover {
+.button > a:visited, .button > a:hover {
   color: #fff;
 }
 
-.three-imgs > img, .three-imgs-caption > h3 {
-  width: 33%;
-  display: inline-block;
-  height: 190px;
-  border: 1px solid black; /* styles to assist with debugging */
-}
-
-.body-heading-text > h1, .three-imgs-caption > h3 {
+.main-body > h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-weight: 100;
-}
-
-.body-heading-text > h1 {
   letter-spacing: 1.5px;
 }
 
-.three-imgs-caption > h3 {
+.three-imgs > img {
+  width: 33%;
+  display: inline-block;
+  height: 110px;
+  font-size: 0;
+}
+
+.three-imgs-content > h3 {
   width: 33%;
   display: inline-block;
   height: 190px;
-  /* styles to assist with debugging */
-  border: 1px solid black;
-  color: red;
+  font-weight: 100;
+  text-align: center;
 }
