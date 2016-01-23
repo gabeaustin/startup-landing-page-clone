@@ -111,7 +111,7 @@ a:hover {
   border: 1px solid #d35400;
 }
 
-.button > a:visited, .button > a:hover {
+.button > a, .button > a:visited, .button > a:hover {
   color: #fff;
 }
 
