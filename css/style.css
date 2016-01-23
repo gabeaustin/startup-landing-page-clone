@@ -131,7 +131,54 @@ a:hover {
 .three-imgs-content > h3 {
   width: 33%;
   display: inline-block;
-  height: 190px;
   font-weight: 100;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+hr {
+  width: 75%;
+}
+
+footer > h4 {
+  font-weight: 100;
+  text-align: center;
+}
+
+footer > h5 {
+  color: #4c5058;
+  font-weight: 100;
+  text-align: center;
+}
+
+.fa-twitter {
+  color: #4099ff;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.fa-instagram {
+  color: #125688;
+}
+
+.footer-imgs > i {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  border: #ecf0f1 1px solid;
+  text-align: center;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+i {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.footer-imgs {
   text-align: center;
 }
