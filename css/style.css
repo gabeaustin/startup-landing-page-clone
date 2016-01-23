@@ -75,7 +75,10 @@ a:hover {
   color: #fff;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  /*margin: 0 auto;*/
+}
+
+.content > h1 {
+  letter-spacing: 2px;
 }
 
 .content > h1, h3 {
@@ -111,3 +114,28 @@ a:hover {
   color: #fff;
 }
 
+.three-imgs > img, .three-imgs-caption > h3 {
+  width: 33%;
+  display: inline-block;
+  height: 190px;
+  border: 1px solid black; /* styles to assist with debugging */
+}
+
+.body-heading-text > h1, .three-imgs-caption > h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 100;
+}
+
+.body-heading-text > h1 {
+  letter-spacing: 1.5px;
+}
+
+.three-imgs-caption > h3 {
+  width: 33%;
+  display: inline-block;
+  height: 190px;
+  /* styles to assist with debugging */
+  border: 1px solid black;
+  color: red;
+}
